@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005A0B702AC70B4C00B0F640 /* PostRequestResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005A0B6F2AC70B4C00B0F640 /* PostRequestResponse.swift */; };
+		00CDD2262AC1C05800BB0C1A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 00CDD2252AC1C05800BB0C1A /* Alamofire */; };
+		00CDD2282AC1C0FF00BB0C1A /* ResponseNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDD2272AC1C0FF00BB0C1A /* ResponseNote.swift */; };
 		79325F6D22F04F3D00B21CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F6C22F04F3D00B21CCA /* AppDelegate.swift */; };
 		79325F6F22F04F3D00B21CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F6E22F04F3D00B21CCA /* ViewController.swift */; };
 		79325F7222F04F3D00B21CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79325F7022F04F3D00B21CCA /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		79325F7722F04F3E00B21CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79325F7522F04F3E00B21CCA /* LaunchScreen.storyboard */; };
 		79325F8222F04F3E00B21CCA /* NotUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F8122F04F3E00B21CCA /* NotUygulamasiTests.swift */; };
 		79325F8D22F04F3E00B21CCA /* NotUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F8C22F04F3E00B21CCA /* NotUygulamasiUITests.swift */; };
+		79325F9B22F0502900B21CCA /* NotHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F9A22F0502900B21CCA /* NotHucreTableViewCell.swift */; };
+		79325F9D22F0515A00B21CCA /* NotEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F9C22F0515A00B21CCA /* NotEkleViewController.swift */; };
+		79325F9F22F0516C00B21CCA /* NotDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325F9E22F0516C00B21CCA /* NotDetayViewController.swift */; };
+		79325FA122F0536B00B21CCA /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79325FA022F0536B00B21CCA /* Notlar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		005A0B6F2AC70B4C00B0F640 /* PostRequestResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequestResponse.swift; sourceTree = "<group>"; };
+		00CDD2272AC1C0FF00BB0C1A /* ResponseNote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseNote.swift; sourceTree = "<group>"; };
 		79325F6922F04F3D00B21CCA /* NotUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79325F6C22F04F3D00B21CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79325F6E22F04F3D00B21CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,10 @@
 		79325F8822F04F3E00B21CCA /* NotUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79325F8C22F04F3E00B21CCA /* NotUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotUygulamasiUITests.swift; sourceTree = "<group>"; };
 		79325F8E22F04F3E00B21CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79325F9A22F0502900B21CCA /* NotHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotHucreTableViewCell.swift; sourceTree = "<group>"; };
+		79325F9C22F0515A00B21CCA /* NotEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEkleViewController.swift; sourceTree = "<group>"; };
+		79325F9E22F0516C00B21CCA /* NotDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotDetayViewController.swift; sourceTree = "<group>"; };
+		79325FA022F0536B00B21CCA /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00CDD2262AC1C05800BB0C1A /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +117,12 @@
 				79325F7322F04F3E00B21CCA /* Assets.xcassets */,
 				79325F7522F04F3E00B21CCA /* LaunchScreen.storyboard */,
 				79325F7822F04F3E00B21CCA /* Info.plist */,
+				79325F9A22F0502900B21CCA /* NotHucreTableViewCell.swift */,
+				79325F9C22F0515A00B21CCA /* NotEkleViewController.swift */,
+				79325F9E22F0516C00B21CCA /* NotDetayViewController.swift */,
+				79325FA022F0536B00B21CCA /* Notlar.swift */,
+				00CDD2272AC1C0FF00BB0C1A /* ResponseNote.swift */,
+				005A0B6F2AC70B4C00B0F640 /* PostRequestResponse.swift */,
 			);
 			path = NotUygulamasi;
 			sourceTree = "<group>";
@@ -141,6 +161,9 @@
 			dependencies = (
 			);
 			name = NotUygulamasi;
+			packageProductDependencies = (
+				00CDD2252AC1C05800BB0C1A /* Alamofire */,
+			);
 			productName = NotUygulamasi;
 			productReference = 79325F6922F04F3D00B21CCA /* NotUygulamasi.app */;
 			productType = "com.apple.product-type.application";
@@ -213,6 +236,9 @@
 				Base,
 			);
 			mainGroup = 79325F6022F04F3D00B21CCA;
+			packageReferences = (
+				00CDD2242AC1C05800BB0C1A /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 79325F6A22F04F3D00B21CCA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -256,8 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79325F9B22F0502900B21CCA /* NotHucreTableViewCell.swift in Sources */,
 				79325F6F22F04F3D00B21CCA /* ViewController.swift in Sources */,
+				005A0B702AC70B4C00B0F640 /* PostRequestResponse.swift in Sources */,
 				79325F6D22F04F3D00B21CCA /* AppDelegate.swift in Sources */,
+				79325FA122F0536B00B21CCA /* Notlar.swift in Sources */,
+				00CDD2282AC1C0FF00BB0C1A /* ResponseNote.swift in Sources */,
+				79325F9F22F0516C00B21CCA /* NotDetayViewController.swift in Sources */,
+				79325F9D22F0515A00B21CCA /* NotEkleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +612,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		00CDD2242AC1C05800BB0C1A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00CDD2252AC1C05800BB0C1A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00CDD2242AC1C05800BB0C1A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79325F6122F04F3D00B21CCA /* Project object */;
 }
